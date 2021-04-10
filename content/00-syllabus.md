@@ -135,7 +135,7 @@ Reading:
  - Optional:
    - Rosseau, J.-J. (1966). [Chapter 5:  On Script](https://books.google.com/books/about/On_the_Origin_of_Language.html?id=rOcAtMVDn8gC). In J. G. Herder, On the Origin of Language (pp. 16–22, particularly page 16-17). Chicago and London: The University of Chicago Press.
 
-- [Zaugg, I. (2017). Chapter 2:  Digital Governance Institutions and Digital Language Diversity, "Digitizing Ethiopic:  Coding for Linguistic Continuity in the Face of Digital Extinction."]
+- Zaugg, I. (2017). Chapter 2:  Digital Governance Institutions and Digital Language Diversity, "Digitizing Ethiopic:  Coding for Linguistic Continuity in the Face of Digital Extinction."
 
 - Wikimedia. (2018, March 12). [Confound it! — Supporting languages with multiple writing systems](https://medium.com/freely-sharing-the-sum-of-all-knowledge/supporting-languages-with-multiple-writing-systems-204da5c2d2c4)
 
@@ -144,12 +144,12 @@ Reading:
 Readings: 
 
  - Mathias Creutz and Krista Lagus. Unsupervised discovery of morphemes. In Proceedings of the Workshop on Morphological and Phonological Learning of ACL-02, pages 21-30, Philadelphia, Pennsylvania, 11 July, 2002. 
- - To be added: 1 or 2 of Ramy"s papers
+ - To be added: 1 or 2 of Ramy's papers
 
  - Resources:
    - Segmentation:
-     - Morfessor: ]{style="color:black"}[[https://morfessor.readthedocs.io/en/latest/](https://morfessor.readthedocs.io/en/latest/)
-     - MorphAGram: [https://github.com/rnd2110/MorphAGram](https://github.com/rnd2110/MorphAGram)
+     - [Morfessor](https://morfessor.readthedocs.io/en/latest/) 
+     - [MorphAGram](https://github.com/rnd2110/MorphAGram)
      - POS tagging: TBA
 
 7.  Feb 26. SMARA**: Learning Word Meanings (Representations). ** Talk about monolingual and multilingual dictionaries; monolingual word representations (word embeddings); contextualize-word embeddings; multilingual word embeddings. How to evaluate?  Students provide updates on Final Projects and ask questions.
@@ -169,14 +169,14 @@ Resources and Additional Readings:
  - [Multilingual FastText](https://github.com/Babylonpartners/fastText_multilingual)
  - [Survey on Cross-lingual Word Embeddings](https://arxiv.org/abs/1706.04902)
  - Samuel L. Smith, David H. P. Turban, Steven Hamblin and Nils Y. Hammerla\ (2017). Offline bilingual word vectors, orthogonal transformations and the inverted softmax. ICLR 2017 (Multilingual Fastext Models)
- - P. Bojanowski\*, E. Grave\*, A. Joulin, T. Mikolov. [*Enriching Word Vectors with Subword Information*](https://arxiv.org/abs/1607.04606). Transactions of ACL. (Monolingual Fastext models)
+ - P. Bojanowski, E. Grave, A. Joulin, T. Mikolov. [*Enriching Word Vectors with Subword Information*](https://arxiv.org/abs/1607.04606). Transactions of ACL. (Monolingual Fastext models)
  - Thang Luong, Hieu Pham, and Christopher D Manning (2015). Bilingual word representations with monolingual quality in mind. In *Proc. of NAACL*
 
-8.  March 12. SMARA: **Machine Translation (Technologies)**. History of Machine Translation. Brief intro to Statistical Machine Translation and Neural Machine Translation. Final Project Lit Review due.
+8.  March 12. SMARA: *Machine Translation (Technologies)*. History of Machine Translation. Brief intro to Statistical Machine Translation and Neural Machine Translation. Final Project Lit Review due.
 
 Readings:
 
- - Ramati, I., & Pinchevski, A. (2017).  Uniform multilingualism: A media genealogy of Google Translate]{style="color:blue"}](about:blank). *New Media & Society*, 1461444817726951. 
+ - Ramati, I., & Pinchevski, A. (2017).  Uniform multilingualism: A media genealogy of Google Translate] *New Media & Society*, 1461444817726951. 
  - Benjamin, M. (2019, April 1). [The Astounding Mathematics of Machine Translation.](https://www.teachyoubackwards.com/mt-mathematics/) *Teach You Backwards*.
  - Adam Lopez. 2008. Statistical machine translation. ACM Comput. Surv. 40, 3, Article 8 (August 2008)
 
@@ -184,7 +184,7 @@ Optional:
 
  - [Survey in Neural Machine Translation](https://arxiv.org/abs/1905.05395)
  - Lewis-Kraus, G. (2015, June 4). [Is Translation an Art or a Math Problem?](https://www.nytimes.com/2015/06/07/magazine/is-translation-an-art-or-a-math-problem.html)[ *The New York Times*.
- - Gibbs, R. (2012). *[Machine Translation in the Imperfect World*](http://prolang.us/machine-translation-in-the-imperfect-world/).  (15-min video about how to develop MT for small data scenarios).
+ - Gibbs, R. (2012). [*Machine Translation in the Imperfect World*](http://prolang.us/machine-translation-in-the-imperfect-world/).  (15-min video about how to develop MT for small data scenarios).
 
 
 9.  March 19. SMARA**:  Machine Translation \#2. ** High Resource vs. Low Resource & Evaluation. Tentative Guest speaker:  **Mona Diab:** "[Faithfulness in natural language generation in an era of heightened ethical AI awareness: opportunities for MT."  Students provide Final Project updates and ask questions.

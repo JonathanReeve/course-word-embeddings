@@ -3,9 +3,9 @@ title: "Example Final Project"
 description: "This is a very short description of your final project."
 date: 2020-04-08 # Please use YYYY-MM-DD format. 
 authors: 
- - "Author One" 
- - "Author Two" 
- - "Author Three"
+ - Author One 
+ - Author Two
+ - Author Three
 github: https://github.com/JonathanReeve/example-github-repo # Optional
 ---
 
