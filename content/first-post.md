@@ -1,13 +1,23 @@
 ---
-title: Hello World
+title: "Example Final Project"
+description: "This is a very short description of your final project."
+date: 2020-04-08 # Please use YYYY-MM-DD format. 
+authors: 
+ - "Author One" 
+ - "Author Two" 
+ - "Author Three"
+github: https://github.com/JonathanReeve/example-github-repo # Optional
 ---
 
-Welcome to your [`Rib`](https://rib.srid.ca) generated site.
+Please put the text of your final project here, in [Markdown](https://www.markdownguide.org/cheat-sheet) format. 
 
-> Be totally sincere ... most definitely utterly sincere, as genuineness is essential. But serious ... no way
+> Format block quotes like this. 
 
-> Naiveté is so vital to freedom. This is because even the strictest application of moralistic and ethicalistic injunctions will never lead to the clean clarity of the purity of living the perfection of the infinitude of this material universe.
+To automatically generate markdown from your .DOCX, RTF, OTF, LaTeX, and other document formats, you can use Pandoc.
 
---*Richard*
+Finally, submit a pull request with your submission. If you've never done this before:
 
-Read more on [actualists.org](https://www.actualists.org/).
+1. Make a GitHub account if you don't already have one.
+2. Fork [this course website repo](https://github.com/JonathanReeve/course-multilingual-technologies) using the Fork button in the upper right. 
+3. On your fork, add your markdown file, formatted as shown here, with the "Add file" button **in the /content folder** of this repo. 
+4. On the course repo, submit a new pull request with the "New pull request" button on [the Pull requests tab of the course website repo](https://github.com/JonathanReeve/course-multilingual-technologies/pulls). 

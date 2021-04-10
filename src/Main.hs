@@ -11,8 +11,9 @@ import Clay (Css, em, pc, px, sym, (?))
 import qualified Clay as C
 import Control.Monad
 import Data.Aeson (FromJSON, fromJSON)
+import Data.Maybe (fromMaybe)
 import qualified Data.Aeson as Aeson
-import Data.Text (Text)
+import Data.Text (Text, intercalate, strip)
 import qualified Data.Text as T
 import Development.Shake
 import GHC.Generics (Generic)
@@ -76,6 +77,7 @@ renderPage route val = html_ [lang_ "en"] $ do
   head_ $ do
     meta_ [httpEquiv_ "Content-Type", content_ "text/html; charset=utf-8"]
     title_ routeTitle
+    link_ [rel_ "stylesheet", href_ "/static/tufte-css/tufte.min.css"]
     style_ [type_ "text/css"] $ C.render pageStyle
   body_ $ do
     div_ [class_ "header"] $
@@ -87,7 +89,10 @@ renderPage route val = html_ [lang_ "en"] $ do
           forM_ val $ \(r, src) ->
             li_ [class_ "pages"] $ do
               let meta = getMeta src
-              b_ $ a_ [href_ (Rib.routeUrl r)] $ toHtml $ title meta
+              a_ [href_ (Rib.routeUrl r)] $ toHtml $ title meta
+              p_ $ do
+                strong_ $ toHtml $ fromMaybe "" $ date meta
+                toHtml $ formatList $ authors meta
               renderMarkdown `mapM_` description meta
       Route_Article _ ->
         article_ $
@@ -95,30 +100,34 @@ renderPage route val = html_ [lang_ "en"] $ do
   where
     routeTitle :: Html ()
     routeTitle = case route of
-      Route_Index -> "Rib sample site"
+      Route_Index -> "Multilingual Technologies and Language Diversity"
       Route_Article _ -> toHtml $ title $ getMeta val
     renderMarkdown :: Text -> Html ()
     renderMarkdown =
       Pandoc.render . Pandoc.parsePure Pandoc.readMarkdown
-
+    formatList :: [Text] -> Text
+    formatList = (intercalate ", ") . (map strip)
 -- | Define your site CSS here
 pageStyle :: Css
 pageStyle =
   C.body ? do
-    C.margin (em 4) (pc 20) (em 1) (pc 20)
+    -- C.margin (em 4) (pc 20) (em 1) (pc 20)
     ".header" ? do
       C.marginBottom $ em 2
     "li.pages" ? do
       C.listStyleType C.none
       C.marginTop $ em 1
-      "b" ? C.fontSize (em 1.2)
+      C.fontSize (em 2)
       "p" ? sym C.margin (px 0)
 
 -- | Metadata in our markdown sources
 data SrcMeta = SrcMeta
   { title :: Text,
     -- | Description is optional, hence `Maybe`
-    description :: Maybe Text
+    description :: Maybe Text,
+    date :: Maybe Text,
+    authors :: [Text],
+    github :: Maybe Text
   }
   deriving (Show, Eq, Generic, FromJSON)
 
