@@ -80,8 +80,8 @@ renderPage route val = html_ [lang_ "en"] $ do
     link_ [rel_ "stylesheet", href_ "https://cdnjs.cloudflare.com/ajax/libs/tufte-css/1.7.2/tufte.min.css"]
     style_ [type_ "text/css"] $ C.render pageStyle
   body_ $ do
-    div_ [class_ "header"] $
-      a_ [href_ "/"] "Back to Home"
+    -- div_ [class_ "header"] $
+    --   a_ [href_ "/"] "Back to Home"
     h1_ routeTitle
     case route of
       Route_Index ->

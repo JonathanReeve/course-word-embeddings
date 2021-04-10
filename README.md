@@ -1,76 +1,22 @@
-# rib-sample
+# Multilingual Technologies and Language Diversity
 
-Sample site for the [Rib](https://github.com/srid/rib) static site generator.
+A website for the course, Multilingual Technologies and Language Diversity, taught at Columbia University in 2020 and 2021, by Prof. Smaranda Muresan and Dr. Isabelle Zaugg. 
 
-## Prerequisites
+## Students: submit your final project
 
-First, install the [Nix package manager](https://nixos.org/nix/):
+Students, to submit your final projects, submit a pull request to this repository, where you add a new markdown file to the ~content~ folder. See [the example](https://github.com/JonathanReeve/course-multilingual-technologies/blob/master/content/first-post.md). 
 
-``` bash
-bash <(curl https://nixos.org/nix/install)
-```
+If you've never written markdown before, see [this cheat sheet](https://www.markdownguide.org/cheat-sheet). 
 
-Optionally, enable the [Nix cache](https://srid.cachix.org/) if you would like to speed up local builds:
+And if you've never submitted a pull request before, see [the instructions in the example](https://github.com/JonathanReeve/course-multilingual-technologies/blob/master/content/first-post.md), or [one of the many tutorials for GitHub pull requests](https://duckduckgo.com/?q=github+pull+request&ia=web). Let us know if you have any questions.
 
-``` bash
-# If you do not already have cachix, install it:
-nix-env -iA cachix -f https://cachix.org/api/v1/install
-# Enable nix cache for rib
-cachix use srid
-```
+## Building
 
-## Running
-
-To build and run the site:
+Students typically won't need to do this. But if you want to build and run this site locally, for some reason, make sure you have Nix installed, and then:
 
 ```bash
 nix-shell --run 'ghcid -T ":main -wS"'
 ```
 
-This launches a web server at http://localhost:8080 serving the statically
-generated content. Changing either `./src/Main.hs` or the content in `./content`
-reloads everything.
+This launches a web server at http://localhost:8080 serving the statically generated content. Changing either `./src/Main.hs` or the content in `./content` reloads everything.
 
-### Use a custom rib and port
-
-You might have a local checkout of rib with certain modifications. And you might
-want to run ghcid with the server running at a different port. Both of this can
-achieved using the following command:
-
-```bash
-# Assuming rib is cloned at ../rib
-nix-shell --arg rib ../rib --run 'ghcid -T ":main -ws :8081"'
-```
-
-## IDE support
-
-The `.vscode` directory contains the necessary settings to work with a rib project.
-
-- Ensure that Nix is installed
-- Run `code .` to open the project in VSCode, and install the recommended extensions.
-  - The default settings have auto-format enabled.
-
-## Building the executable
-
-A fully built executable can be produced using `nix-build`:
-
-```text
-$ nix-build 
-...
-$ ./result/bin/rib-sample --help
-Usage: rib-sample [--rebuild-all] [-w|--watch] [(-s|--serve [HOST]:PORT) | -S]
-                  [--quiet] [--input-dir INPUTDIR] [--output-dir OUTPUTDIR]
-  Generate a static site at OUTPUTDIR using input from INPUTDIR
-
-Available options:
-  --rebuild-all            Rebuild all sources
-  -w,--watch               Watch for changes and regenerate
-  -s,--serve [HOST]:PORT   Run a HTTP server on the generated directory
-  -S                       Like `-s 127.0.0.1:8080`
-  --quiet                  Log nothing
-  --input-dir INPUTDIR     Directory containing the source files (default:
-                           content)
-  --output-dir OUTPUTDIR   Directory where files will be generated (default:
-                           dest)
-  -h,--help                Show this help text
-```
