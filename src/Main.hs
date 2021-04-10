@@ -77,7 +77,7 @@ renderPage route val = html_ [lang_ "en"] $ do
   head_ $ do
     meta_ [httpEquiv_ "Content-Type", content_ "text/html; charset=utf-8"]
     title_ routeTitle
-    link_ [rel_ "stylesheet", href_ "/static/tufte-css/tufte.min.css"]
+    link_ [rel_ "stylesheet", href_ "https://cdnjs.cloudflare.com/ajax/libs/tufte-css/1.7.2/tufte.min.css"]
     style_ [type_ "text/css"] $ C.render pageStyle
   body_ $ do
     div_ [class_ "header"] $
