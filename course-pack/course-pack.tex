@@ -1,0 +1,59 @@
+\documentclass[a4paper]{book}
+\usepackage{titlesec}
+\usepackage{pdfpages}
+\usepackage{fancyhdr}
+
+\newcommand{\mytitle}{Course Pack: Meaningful Text Analysis with Word Embeddings}
+
+\pagestyle{headings}
+
+\title{Course Pack: Meaningful Text Analysis with Word Embeddings \\ \\
+  Digital Humanities Summer Institute, 2021}
+\author{Jonathan Reeve}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+\tableofcontents
+
+\chapter{About this Course Pack}
+
+This course pack contains papers and readings that may be of interest to students in the course, ``Meaningful Text Analysis with Word Embeddings,'' a one-week course at the Digital Humanities Summer Institute, during the summer of 2021. Many of these are originally meant for students in STEM fields, so you may encounter notation or terminology that will seem alien. Don't let that discourage you! In this course, we will not need most of the mathematical details you see in these papers, since we will be using libraries and software packages that have already implemented these details for us. That said, if you're curious about the inner workings of the algorithms we'll be using, or have a background in computer science, these details can be useful!
+
+Contained here is a chapter, and accompanying slides, from the classic textbook from Jurafski and Martin, \emph{Speech and Language Processing}. Following that is Mikolov et al's seminal paper describing Word2Vec, one of the most well-known embedding libraries. Finally, there are two papers which deal with potential bias and ethics issues associated with word embeddings analysis.
+
+\chapter{Jurafsky's Slides}
+
+Slides for Chapter 6 of Jurafski, Dan, and James H. Martin. \emph{Speech and Language Processing}. Third edition draft. https://web.stanford.edu/~jurafsky/slp3/
+
+  %% \includepdf[pagecommand={\thispagestyle{empty}},pages=1 ]{jurafsky2020.pdf}
+  \includepdf[pagecommand={\thispagestyle{headings}}, pages=1-]{jurafsky2020.pdf}
+
+\chapter{Jurafsky's Text}
+
+Text of Chapter 6 of Jurafski, Dan, and James H. Martin. \emph{Speech and Language Processing}. Third edition draft. https://web.stanford.edu/~jurafsky/slp3/
+
+  \includepdf[pagecommand={\thispagestyle{headings}}, pages=1-]{jurafsky-ch-6.pdf}
+
+\chapter{Mikolov et al.}
+
+Mikolov, Tomas and Chen, Kai and Corrado, Greg and Dean, Jeffrey. ``Efficient estimation of word representations in vector space.'' arXiv preprint arXiv:1301.3781. https://arxiv.org/abs/1301.3781
+
+  \includepdf[pagecommand={\thispagestyle{headings}}, pages=1-]{mikolov2013efficient.pdf}
+
+\chapter{Kozlowski et al.}
+
+Kozlowski, Austin C., Matt Taddy, and Evans, James A. (2019) ``The Geometry of Culture: Analyzing the Meanings of Class through Word Embeddings''. American Sociological Review 84:5.
+
+  \includepdf[pagecommand={\thispagestyle{empty}}, pages=1-]{Kozlowski_2019.pdf}
+
+\chapter{Garg et al.}
+
+Garg, N., Schiebinger, L., Jurafsky, D., and Zou, J. (2018) ``Word embeddings quantify 100 years of gender and ethnic stereotypes'' PNAS 115:16.
+
+  \includepdf[pagecommand={\thispagestyle{empty}}, pages=1-]{Garg_2018.pdf}
+
+
+\end{document}
