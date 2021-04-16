@@ -1,11 +1,8 @@
 ---
-
 title: "Building Armenian Sentiment Analysis Tools using mBERT and Neural Networks"
 description: "We aimed to build Armenian sentiment analysis tools to conduct research on Armenian social media posts regarding the 2020 Nagorno-Karabakh conflict to understand the collective emotions of Armenians and see whether sentiment would differ when analyzed in another language such as English."
 date: 2020-04-16
-authors: "Ciaran Beckford, Newman Cheng, Selena Huang, Lingsi Kong"
-# github: none # Optional
-
+authors: [Ciaran Beckford, Newman Cheng, Selena Huang, Lingsi Kong]
 ---
 
 Language justice is an idealized situation where language dominance no longer exists. It protects language diversity in all regions, regardless of their population, economic and political status. Creating language justice requires a multilingual platform for all people and is based on the equitable right for people to use their languages (Aire, 2013). There should be adequate technical support for all languages in the digital age, especially those under-resourced and minority languages. Up till now, such a problem has received attention from the global superpowers and the EU. For example, the European Union “coordinates major activities” for the promotion of digital language diversity (Benjamin, 2021). However, achieving language diversity is a long-term process and many low-resourced languages are still in need of digital support.
