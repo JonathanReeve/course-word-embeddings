@@ -18,6 +18,6 @@ To automatically generate markdown from your .DOCX, RTF, OTF, LaTeX, and other d
 Finally, submit a pull request with your submission. If you've never done this before:
 
 1. Make a GitHub account if you don't already have one.
-2. Fork [this course website repo](https://github.com/JonathanReeve/course-multilingual-technologies) using the Fork button in the upper right. 
+2. Fork [this course website repo](https://github.com/JonathanReeve/course-word-embeddings) using the Fork button in the upper right. 
 3. On your fork, add your markdown file, formatted as shown here, with the "Add file" button **in the /content folder** of this repo. 
-4. On the course repo, submit a new pull request with the "New pull request" button on [the Pull requests tab of the course website repo](https://github.com/JonathanReeve/course-multilingual-technologies/pulls). 
+4. On the course repo, submit a new pull request with the "New pull request" button on [the Pull requests tab of the course website repo](https://github.com/JonathanReeve/course-word-embeddings/pulls). 

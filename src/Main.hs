@@ -100,7 +100,7 @@ renderPage route val = html_ [lang_ "en"] $ do
   where
     routeTitle :: Html ()
     routeTitle = case route of
-      Route_Index -> "Multilingual Technologies and Language Diversity"
+      Route_Index -> "Meaningful Text Analysis with Word Embeddings"
       Route_Article _ -> toHtml $ title $ getMeta val
     renderMarkdown :: Text -> Html ()
     renderMarkdown =
