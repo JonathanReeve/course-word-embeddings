@@ -1,14 +1,8 @@
 ---
 title: "Building Armenian Sentiment Analysis Tools using mBERT and Neural Networks"
-description: "We aimed to build Armenian sentiment analysis tools which we could use to conduct research on Armenian social media posts regarding the 2020 Nagorno-Karabakh conflict. 
-We wanted to understand the collective emotions of Armenians regarding this conflict, and see whether sentiment would differ when analyzed in another language such as English. 
-Furthermore, a big question we wanted to answer was which type of machine learning framework would be best suited for conducting sentiment analysis in Armenian. "
-date: 2020-04-16. 
-authors: 
- - Ciaran Beckford 
- - Newman Cheng
- - Selena Huang
- - Lingsi Kong
+description: "We aimed to build Armenian sentiment analysis tools to conduct research on Armenian social media posts regarding the 2020 Nagorno-Karabakh conflict to understand the collective emotions of Armenians and see whether sentiment would differ when analyzed in another language such as English."
+date: 2020-04-16
+authors: "Ciaran Beckford, Newman Cheng, Selena Huang, Lingsi Kong"
 github: rando github for now # Optional
 ---
 
