@@ -1,0 +1,17 @@
+---
+title: "Building Armenian Sentiment Analysis Tools using mBERT and Neural Networks"
+description: "We aimed to build Armenian sentiment analysis tools which we could use to conduct research on Armenian social media posts regarding the 2020 Nagorno-Karabakh conflict. 
+We wanted to understand the collective emotions of Armenians regarding this conflict, and see whether sentiment would differ when analyzed in another language such as English. 
+Furthermore, a big question we wanted to answer was which type of machine learning framework would be best suited for conducting sentiment analysis in Armenian. "
+date: 2020-04-16. 
+authors: 
+ - Ciaran Beckford 
+ - Newman Cheng
+ - Selena Huang
+ - Lingsi Kong
+github: rando github for now # Optional
+---
+
+Language justice is an idealized situation where language dominance no longer exists. It protects language diversity in all regions, regardless of their population, economic and political status. Creating language justice requires a multilingual platform for all people and is based on the equitable right for people to use their languages (Aire, 2013). There should be adequate technical support for all languages in the digital age, especially those under-resourced and minority languages. Up till now, such a problem has received attention from the global superpowers and the EU. For example, the European Union “coordinates major activities” for the promotion of digital language diversity (Benjamin, 2021). However, achieving language diversity is a long-term process and many low-resourced languages are still in need of digital support.
+ 
+Armenian is an under-resourced language of such kind. Although Armenian is the official language in Armenia, Russian is widely spoken in Armenia as Armenia is a former Soviet state. For this reason, Armenians are likely to shift towards higher-resourced languages like Russian, where there is a lack of digital Armenian support (Romaine, 2015). Thus, the Armenian language's digital preservation should be taken seriously as denial and apathy threaten to put cultural values and identities at risk. Fortunately, in recent years, Armenian is slowly ascending through growing digital support, and through the lens of Kornai's definition, Armenian is a vital language but not yet thriving (Gibson, 2016).  Up till now, Armenian has found digital support with UTF encoding, NLP tools in syntax parsing, part-of-speech tagging, pre-trained word embeddings, and named entity recognition, among others, but is surprisingly not a supported language in Twitter's "Advanced Search Tools." Thus, more attention should be focused on building widespread linguistic tools for Armenian at a consistent pace. Armenian sentiment analysis is one of such tools that coalesces various sources of data to understand the widespread mood for Armenian ethnic groups in response to critical events, for example, the recent outbreak of the Nagorno-Karabakh conflict in September 2020, a conflict between Armenia and Azerbaijan on Nagorno-Karabakh territory. There are around 150,000 people in the region where the war broke out in the conflict, and most of them are Armenian. It is an important event as it has lasted for decades, starting in 1918 when Armenia and Azerbaijan declared independence after the Russian Revolution. People are the central aspect to language justice, and therefore, it is essential to analyze the collective sentiment towards the conflict, and it is worth building computational tools to give inherent value to its users.
