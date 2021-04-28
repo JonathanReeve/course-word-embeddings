@@ -1,14 +1,23 @@
-\documentclass[a4paper]{book}
+\documentclass[a4paper]{report}
 \usepackage{titlesec}
 \usepackage{pdfpages}
 \usepackage{fancyhdr}
+\usepackage[hyphens]{url}
+\usepackage{hyperref}
+\hypersetup{
+  colorlinks=true,
+  linkcolor=blue,
+  filecolor=magenta,
+  urlcolor=cyan,
+}
+\urlstyle{same}
+
 
 \newcommand{\mytitle}{Course Pack: Meaningful Text Analysis with Word Embeddings}
 
 \pagestyle{headings}
 
-\title{Course Pack: Meaningful Text Analysis with Word Embeddings \\ \\
-  Digital Humanities Summer Institute, 2021}
+\title{Course Pack: Meaningful Text Analysis with Word Embeddings, Digital Humanities Summer Institute, 2021}
 \author{Jonathan Reeve}
 \date{\today}
 
@@ -24,16 +33,18 @@ This course pack contains papers and readings that may be of interest to student
 
 Contained here is a chapter, and accompanying slides, from the classic textbook from Jurafski and Martin, \emph{Speech and Language Processing}. Following that is Mikolov et al's seminal paper describing Word2Vec, one of the most well-known embedding libraries. Finally, there are two papers which deal with potential bias and ethics issues associated with word embeddings analysis.
 
+Find all these readings, and more, at the course website: \url{https://dhsi2021.jonreeve.com}, which is the canonical location for course materials.
+
 \chapter{Jurafsky's Slides}
 
-Slides for Chapter 6 of Jurafski, Dan, and James H. Martin. \emph{Speech and Language Processing}. Third edition draft. https://web.stanford.edu/~jurafsky/slp3/
+Slides for Chapter 6 of Jurafski, Dan, and James H. Martin. \emph{Speech and Language Processing}. Third edition draft. \url{https://web.stanford.edu/~jurafsky/slp3/}
 
   %% \includepdf[pagecommand={\thispagestyle{empty}},pages=1 ]{jurafsky2020.pdf}
   \includepdf[pagecommand={\thispagestyle{headings}}, pages=1-]{jurafsky2020.pdf}
 
 \chapter{Jurafsky's Text}
 
-Text of Chapter 6 of Jurafski, Dan, and James H. Martin. \emph{Speech and Language Processing}. Third edition draft. https://web.stanford.edu/~jurafsky/slp3/
+Text of Chapter 6 of Jurafski, Dan, and James H. Martin. \emph{Speech and Language Processing}. Third edition draft. \url{https://web.stanford.edu/~jurafsky/slp3/}
 
   \includepdf[pagecommand={\thispagestyle{headings}}, pages=1-]{jurafsky-ch-6.pdf}
 
