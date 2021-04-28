@@ -2,13 +2,13 @@
 
 A website for the course, Meaningful Text Analysis with Word Embeddings, taught at the [Digital Humanities Summer Institute](https://dhsi.org/dhsi-2021-online-edition/) in Summer 2021. 
 
-[Main course website](http://dhsi2021.jonreeve.com/)
+This repository just contains the source code for the website. [See here for the main course website](http://dhsi2021.jonreeve.com/)
 
-
+WARNING: this syllabus is still a work-in-progress, and likely won't be complete until closer to the course start date, in June of 2021. If you have any questions about the course, don't hesitate to reach out: jonathan.reeve@columbia.edu.
 
 ## Students: submit your final projects
 
-Students, to submit your final projects, submit a pull request to this repository, where you add a new markdown file to the `content` folder. See [the example](https://github.com/JonathanReeve/course-word-embeddings/blob/master/content/first-post.md). 
+Students, to submit your final projects, and have them published here, submit a pull request to this repository, where you add your Jupyter notebook file to the `content` folder. See [the example](https://github.com/JonathanReeve/course-word-embeddings/blob/master/content/first-post.md). 
 
 If you've never written markdown before, see [this cheat sheet](https://www.markdownguide.org/cheat-sheet). 
 
