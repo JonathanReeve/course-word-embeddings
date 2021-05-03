@@ -1,16 +1,21 @@
 --- 
-title: "Syllabus: Meaningful Text Analysis with Word Embeddings**
+title: "Syllabus: Meaningful Text Analysis with Word Embeddings" 
 authors: 
  - Jonathan Reeve
 ---
 
-A week-long workshop, taught at [Digital Humanities Summer Institute, Summer 2021](https://dhsi.org/dhsi-2021-online-edition** 
+A week-long workshop, taught at [Digital Humanities Summer Institute, Summer 2021](https://dhsi.org/dhsi-2021-online-edition)
 
-**Instructor**: [Jonathan Reeve](https://jonreeve.com**, Department of English and Comparative Literature, Columbia University. 
+
+**Instructor**: [Jonathan Reeve](https://jonreeve.com), Department of English and Comparative Literature, Columbia University. 
 
 **Email**: [jonathan.reeve@columbia.edu](mailto:jonathan.reeve@columbia.edu)
 
 **Course website**: <https://dhsi2021.jonreeve.com> (You're probably reading it now.)
+
+**Dates**: 7–11 June, 2021
+
+**Virtual classroom**: <https://meet.jit.si/dhsi2021-word-embeddings>
 
 **WARNING**: This syllabus is very much still a work-in-progress, and likely won't be complete until the course start date, in June 2021.
 
