@@ -13,9 +13,10 @@ A week-long workshop, taught at [Digital Humanities Summer Institute, Summer 202
 
 **Course website**: <https://dhsi2021.jonreeve.com> (You're probably reading it now.)
 
-**Dates**: 7–11 June, 2021
+**Dates**: 14–18 June, 2021, at [11:00 Pacific (14:00 New York, 18:00 UTC)]  (https://time.is/compare/1400_14_June_2021_in_New_York/UTC/Victoria,_British_Columbia), for one hour each.
 
 **Virtual classroom**: <https://meet.jit.si/dhsi2021-word-embeddings>
+
 
 **WARNING**: This syllabus is very much still a work-in-progress, and likely won't be complete until the course start date, in June 2021.
 
@@ -31,12 +32,24 @@ Word embeddings provide new ways of understanding language, by encorporating con
 4. [Garg, N., Schiebinger, L., Jurafsky, D., and Zou, J. (2018) "Word embeddings quantify 100 years of gender and ethnic stereotypes" PNAS 115:16](https://www.pnas.org/content/115/16/E3635.short)
 5. [Bolukbasi, Tolga, Kai-Wei Chang, James Zou, Venkatesh Saligrama, and Adam Kalai. "Man is to computer programmer as woman is to homemaker? debiasing word embeddings." arXiv preprint arXiv:1607.06520 (2016).](https://arxiv.org/abs/1607.06520)
 
-## Day 1: Theory of Word Embeddings 
+## Monday, 14 June: Theory of Word Embeddings 
 
-## Day 2: Introduction to Python for Text Analysis
+ - Lecture video: TBA
+ - Videoconference: 
 
-## Day 3: Hands-on With Pre-Trained Word Embeddings
+## Tuesday, 15 June: Introduction to Python for Text Analysis
 
-## Day 4: Practicum in Text Analysis
+ - Lecture video: TBA
 
-## Day 5: Lab Work
+## Wednesday, 16 June: Hands-on With Pre-Trained Word Embeddings
+
+ - Lecture video: TBA
+
+## Thursday, 17 June: Practicum in Text Analysis
+
+ - Lecture video: TBA
+
+## Friday, 18 June: Lab Work
+
+ - Lecture video: TBA
+ 
