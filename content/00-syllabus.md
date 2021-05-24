@@ -6,7 +6,6 @@ authors:
 
 A week-long workshop, taught at [Digital Humanities Summer Institute, Summer 2021](https://dhsi.org/dhsi-2021-online-edition)
 
-
 **Instructor**: [Jonathan Reeve](https://jonreeve.com), Department of English and Comparative Literature, Columbia University. 
 
 **Email**: [jonathan.reeve@columbia.edu](mailto:jonathan.reeve@columbia.edu)
@@ -17,15 +16,13 @@ A week-long workshop, taught at [Digital Humanities Summer Institute, Summer 202
 
 **Virtual classroom**: <https://meet.jit.si/dhsi2021-word-embeddings>
 
+**Chatroom**: [#dhsi2021-word-embeddings:matrix.org](https://matrix.to/#/!NfrKxmoXbgbyylMTzE:matrix.org?via=matrix.org) on [matrix](https://matrix.org/). [Download a client.](https://matrix.org/clients-matrix/)
 
 **WARNING**: This syllabus is very much still a work-in-progress, and likely won't be complete until the course start date, in June 2021.
 
 ## Course Description
 
 Word embeddings provide new ways of understanding language, by encorporating contexts, meanings, and senses of words into their digital representations. They are a new technology, developed by researchers at Google, which now powers the most advanced computational language tasks, such as machine translation, automatic summarization, and information extraction. Since they represent more than just the surface forms of words, their applications for humanities scholarship are profound. This course will serve as a hands-on introduction to word embeddings, and will use the Python programming language, in conjunction with the SpaCy package for natural language processing. Participants are encouraged to bring their own collections of text to analyze, and will create meaningful explorations of them by the end of the course. No prior programming experience is necessary.
-
-## Readings
-
 
 ## Monday, 14 June: Theory of Word Embeddings 
 
