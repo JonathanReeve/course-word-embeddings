@@ -53,7 +53,7 @@ One important note about Colab is that the virtual machine's state (its memory o
 
 ## Monday, 14 June: Theory of Word Embeddings 
 
- - [Lecture video here on YouTube.](https://youtu.be/2Jo8DO2Koko)
+ - [Lecture video](https://us.tv/videos/watch/1873468e-a108-4dbc-b322-94414fa8d004)
  - [Colab notebook as a GitHub Gist](https://colab.research.google.com/gist/JonathanReeve/efd664f9b8af89f8a5f64c99e699a753/01-dhsi-word-embeddings.ipynb)
  - Class videoconference:  [11:00 Pacific / 14:00 New York / 18:00 UTC](https://time.is/compare/1400_14_June_2021_in_New_York/UTC/Victoria,_British_Columbia), in [our videoconference room on Jitsi](https://meet.jit.si/dhsi2021-word-embeddings).
  - Reading: [Chapter 6 of Jurafski, Dan, and James H. Martin. *Speech and Language Processing*. Third edition draft.](https://via.hypothes.is/https://dhsi2021.jonreeve.com/static/readings/jurafsky.pdf)
