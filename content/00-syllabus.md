@@ -63,7 +63,8 @@ One important note about Colab is that the virtual machine's state (its memory o
 ## Tuesday, 15 June: Introduction to Python for Text Analysis
 
  - [Lecture video](https://us.tv/videos/watch/75a62334-e9eb-4369-8626-85cc6a80623b)
- - [Colab notebook as a GitHub Gist](https://gist.github.com/JonathanReeve/250faf906992ee9973f5f4e907bbd8a1)
+ - [Lecture notebook](https://gist.github.com/JonathanReeve/250faf906992ee9973f5f4e907bbd8a1)
+ - [Class notebook](https://gist.github.com/JonathanReeve/002a911709acbb69c2105d05c697b87a)
  - Class videoconference: [11:00 Pacific / 14:00 New York / 18:00 UTC](https://time.is/compare/1400_14_June_2021_in_New_York/UTC/Victoria,_British_Columbia), in [our videoconference room on Jitsi](https://meet.jit.si/dhsi2021-word-embeddings).
  - [Mikolov, Tomas and Chen, Kai and Corrado, Greg and Dean, Jeffrey. "Efficient estimation of word representations in vector space." arXiv preprint arXiv:1301.3781.](https://via.hypothes.is/https://dhsi2021.jonreeve.com/static/readings/mikolov.pdf)
    - Please write at least one annotation using the Hypothes.is annotation layer.
