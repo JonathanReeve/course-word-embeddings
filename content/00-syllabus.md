@@ -71,7 +71,9 @@ One important note about Colab is that the virtual machine's state (its memory o
 
 ## Wednesday, 16 June: Hands-on With Pre-Trained Word Embeddings
 
- - Lecture video: TBA. A link will appear here as soon as it's available.
+ - [Lecture video](https://us.tv/videos/watch/5d8046f6-6d0e-4874-8ac0-08346a72662a)
+ - [Lecture notebook](https://gist.github.com/JonathanReeve/d80571afa44ea45c83e67220d8544af4)
+ - [Class notebook](https://gist.github.com/JonathanReeve/8945ff89051bb08b683559fd540b8cfa)
  - Class videoconference: [11:00 Pacific / 14:00 New York / 18:00 UTC](https://time.is/compare/1400_14_June_2021_in_New_York/UTC/Victoria,_British_Columbia), in [our videoconference room on Jitsi](https://meet.jit.si/dhsi2021-word-embeddings).
  - Reading: [Kozlowski, Austin C., Matt Taddy, and Evans, James A. (2019) "The Geometry of Culture: Analyzing the Meanings of Class through Word Embeddings." American Sociological Review 84:5.](https://via.hypothes.is/https://dhsi2021.jonreeve.com/static/readings/kozlowski.pdf)
    - [Also available here, via Sage](https://journals.sagepub.com/doi/full/10.1177/0003122419877135)
@@ -79,7 +81,6 @@ One important note about Colab is that the virtual machine's state (its memory o
 
 ## Thursday, 17 June: Practicum in Text Analysis
 
- - Lecture video: TBA. A link will appear here as soon as it's available.
  - Class videoconference: [11:00 Pacific / 14:00 New York / 18:00 UTC](https://time.is/compare/1400_14_June_2021_in_New_York/UTC/Victoria,_British_Columbia), in [our videoconference room on Jitsi](https://meet.jit.si/dhsi2021-word-embeddings).
  - Reading: [Garg, N., Schiebinger, L., Jurafsky, D., and Zou, J. (2018) "Word embeddings quantify 100 years of gender and ethnic stereotypes" PNAS 115:16](https://via.hypothes.is/https://dhsi2021.jonreeve.com/static/readings/garg.pdf)
    - [Originally here, at PNAS](https://www.pnas.org/content/115/16/E3635.short)
