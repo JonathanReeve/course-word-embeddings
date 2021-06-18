@@ -90,7 +90,8 @@ One important note about Colab is that the virtual machine's state (its memory o
 
 ## Friday, 18 June: Lab Work
 
- - Lecture video: TBA. A link will appear here as soon as it's available.
+ - [Lecture video](https://us.tv/videos/watch/6d2001dd-cf77-4488-bfdc-9ef2dfa7e909)
+ - [Lecture notebook](https://gist.github.com/JonathanReeve/7b9b3f9c23bb34f551ad48a84c4760ff)
  - Class videoconference: [11:00 Pacific / 14:00 New York / 18:00 UTC](https://time.is/compare/1400_14_June_2021_in_New_York/UTC/Victoria,_British_Columbia), in [our videoconference room on Jitsi](https://meet.jit.si/dhsi2021-word-embeddings).
  - Reading: [Bolukbasi, Tolga, Kai-Wei Chang, James Zou, Venkatesh Saligrama, and Adam Kalai. "Man is to computer programmer as woman is to homemaker? debiasing word embeddings." arXiv preprint arXiv:1607.06520 (2016).](https://via.hypothes.is/https://dhsi2021.jonreeve.com/static/readings/bolukbasi.pdf)
    - [Original via ArXiv](https://arxiv.org/abs/1607.06520)
