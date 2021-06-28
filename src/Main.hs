@@ -7,7 +7,7 @@
 
 module Main where
 
-import Clay (Css, em, pc, px, sym, (?))
+import Clay (Css, em, px, sym, (?))
 import qualified Clay as C
 import Control.Monad
 import Data.Aeson (FromJSON, fromJSON)
@@ -22,24 +22,21 @@ import Main.Utf8
 import Rib (IsRoute, Pandoc)
 import qualified Rib
 import qualified Rib.Parser.Pandoc as Pandoc
-import System.FilePath
 
 -- | Route corresponding to each generated static page.
 --
 -- The `a` parameter specifies the data (typically Markdown document) used to
 -- generate the final page text.
 data Route a where
-  Route_Index :: Route [(Route Pandoc, Pandoc)]
+  Route_Index :: FilePath -> Route Pandoc
   Route_Article :: FilePath -> Route Pandoc
 
 -- | The `IsRoute` instance allows us to determine the target .html path for
 -- each route. This affects what `routeUrl` will return.
 instance IsRoute Route where
   routeFile = \case
-    Route_Index ->
-      pure "index.html"
-    Route_Article srcPath ->
-      pure $ "article" </> srcPath -<.> ".html"
+    Route_Index _ -> pure "index2.html"
+    Route_Article _ -> pure $ "index.html"
 
 -- | Main entry point to our generator.
 --
@@ -60,53 +57,25 @@ generateSite :: Action ()
 generateSite = do
   -- Copy over the static files
   Rib.buildStaticFiles ["static/**"]
-  let writeHtmlRoute :: Route a -> a -> Action ()
-      writeHtmlRoute r = Rib.writeRoute r . Lucid.renderText . renderPage r
   -- Build individual sources, generating .html for each.
-  articles <-
-    Rib.forEvery ["*.md"] $ \srcPath -> do
-      let r = Route_Article srcPath
-      doc <- Pandoc.parse Pandoc.readMarkdown srcPath
-      writeHtmlRoute r doc
-      pure (r, doc)
-  writeHtmlRoute Route_Index articles
+  Rib.forEvery ["*.md"] $ \srcPath -> do
+    let r = Route_Article srcPath
+    doc <- Pandoc.parse Pandoc.readMarkdown srcPath
+    Rib.writeRoute r . Lucid.renderText . renderPage r
+    pure (r, doc)
 
 -- | Define your site HTML here
 renderPage :: Route a -> a -> Html ()
-renderPage route val = html_ [lang_ "en"] $ do
+renderPage _ val = html_ [lang_ "en"] $ do
   head_ $ do
     meta_ [httpEquiv_ "Content-Type", content_ "text/html; charset=utf-8"]
-    title_ routeTitle
+    title_ $ toHtml $ title $ getMeta val
     link_ [rel_ "stylesheet", href_ "https://cdnjs.cloudflare.com/ajax/libs/tufte-css/1.7.2/tufte.min.css"]
     style_ [type_ "text/css"] $ C.render pageStyle
   body_ $ do
-    -- div_ [class_ "header"] $
-    --   a_ [href_ "/"] "Back to Home"
     h1_ routeTitle
-    case route of
-      Route_Index ->
-        div_ $
-          forM_ val $ \(r, src) ->
-            li_ [class_ "pages"] $ do
-              let meta = getMeta src
-              a_ [href_ (Rib.routeUrl r)] $ toHtml $ title meta
-              p_ $ do
-                strong_ $ toHtml $ fromMaybe "" $ date meta
-                toHtml $ formatList $ authors meta
-              renderMarkdown `mapM_` description meta
-      Route_Article _ ->
-        article_ $
-          Pandoc.render val
-  where
-    routeTitle :: Html ()
-    routeTitle = case route of
-      Route_Index -> "Meaningful Text Analysis with Word Embeddings"
-      Route_Article _ -> toHtml $ title $ getMeta val
-    renderMarkdown :: Text -> Html ()
-    renderMarkdown =
-      Pandoc.render . Pandoc.parsePure Pandoc.readMarkdown
-    formatList :: [Text] -> Text
-    formatList = (intercalate ", ") . (map strip)
+    article_ $ Pandoc.render val
+
 -- | Define your site CSS here
 pageStyle :: Css
 pageStyle =
