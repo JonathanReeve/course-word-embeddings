@@ -28,15 +28,12 @@ import qualified Rib.Parser.Pandoc as Pandoc
 -- The `a` parameter specifies the data (typically Markdown document) used to
 -- generate the final page text.
 data Route a where
-  Route_Index :: FilePath -> Route Pandoc
   Route_Article :: FilePath -> Route Pandoc
 
 -- | The `IsRoute` instance allows us to determine the target .html path for
 -- each route. This affects what `routeUrl` will return.
 instance IsRoute Route where
-  routeFile = \case
-    Route_Index _ -> pure "index2.html"
-    Route_Article _ -> pure $ "index.html"
+  routeFile _ = pure "index.html"
 
 -- | Main entry point to our generator.
 --
@@ -49,8 +46,7 @@ instance IsRoute Route where
 -- In the shake action you would expect to use the utility functions
 -- provided by Rib to do the actual generation of your static site.
 main :: IO ()
-main = withUtf8 $ do
-  Rib.run "content" "dest" generateSite
+main = withUtf8 $ Rib.run "content" "dest" generateSite
 
 -- | Shake action for generating the static site
 generateSite :: Action ()
@@ -58,23 +54,23 @@ generateSite = do
   -- Copy over the static files
   Rib.buildStaticFiles ["static/**"]
   -- Build individual sources, generating .html for each.
-  Rib.forEvery ["*.md"] $ \srcPath -> do
-    let r = Route_Article srcPath
-    doc <- Pandoc.parse Pandoc.readMarkdown srcPath
-    Rib.writeRoute r . Lucid.renderText . renderPage r
-    pure (r, doc)
+  let path = "syllabus.md" -- file to build into index.html
+  let r = Route_Article path
+  pandocDoc <- Pandoc.parse Pandoc.readMarkdown path
+  Rib.writeRoute r $ Lucid.renderText $ renderPage r pandocDoc
 
 -- | Define your site HTML here
-renderPage :: Route a -> a -> Html ()
+renderPage :: Route a -> Pandoc -> Html ()
 renderPage _ val = html_ [lang_ "en"] $ do
+  let routeTitle = toHtml $ title $ getMeta val
   head_ $ do
     meta_ [httpEquiv_ "Content-Type", content_ "text/html; charset=utf-8"]
-    title_ $ toHtml $ title $ getMeta val
-    link_ [rel_ "stylesheet", href_ "https://cdnjs.cloudflare.com/ajax/libs/tufte-css/1.7.2/tufte.min.css"]
+    title_ routeTitle
+    link_ [rel_ "stylesheet", href_ "/static/tufte-css/tufte.min.css"]
     style_ [type_ "text/css"] $ C.render pageStyle
   body_ $ do
     h1_ routeTitle
-    article_ $ Pandoc.render val
+    article_ $ section_ $ Pandoc.render val
 
 -- | Define your site CSS here
 pageStyle :: Css
