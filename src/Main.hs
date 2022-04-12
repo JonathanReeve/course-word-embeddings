@@ -9,11 +9,9 @@ module Main where
 
 import Clay (Css, em, px, sym, (?))
 import qualified Clay as C
-import Control.Monad
 import Data.Aeson (FromJSON, fromJSON)
-import Data.Maybe (fromMaybe)
 import qualified Data.Aeson as Aeson
-import Data.Text (Text, intercalate, strip)
+import Data.Text (Text)
 import qualified Data.Text as T
 import Development.Shake
 import GHC.Generics (Generic)
@@ -69,8 +67,9 @@ renderPage _ val = html_ [lang_ "en"] $ do
     link_ [rel_ "stylesheet", href_ "/static/tufte-css/tufte.min.css"]
     style_ [type_ "text/css"] $ C.render pageStyle
   body_ $ do
-    h1_ routeTitle
-    article_ $ section_ $ Pandoc.render val
+    article_ $ section_ $ do
+      h1_ routeTitle
+      Pandoc.render val
 
 -- | Define your site CSS here
 pageStyle :: Css

@@ -6,19 +6,19 @@ authors:
 
 # Syllabus
 
-A week-long workshop, taught at [Digital Humanities Summer Institute, Summer 2021](https://dhsi.org/dhsi-2021-online-edition), and [Summer 2022 (anticipated)](https://dhsi.org/course-offerings/).
+A week-long workshop, taught at [Digital Humanities Summer Institute, Summer 2022](https://dhsi.org/dhsi-2022-online-edition), and [Summer 2022 (anticipated)](https://dhsi.org/course-offerings/).
 
 **Instructor**: [Jonathan Reeve](https://jonreeve.com), Department of English and Comparative Literature, Columbia University. 
 
 **Email**: [jonathan.reeve@columbia.edu](mailto:jonathan.reeve@columbia.edu). **Although please communicate with me using the course chatroom, whenever possible and appropriate.**
 
-**Website**: <https://dhsi2021.jonreeve.com>
+**Website**: <https://dhsi2022.jonreeve.com>
 
-**Dates**: 14–18 June, 2021, at [11:00 Victoria / 14:00 New York / 18:00 UTC](https://time.is/compare/1400_14_June_2021_in_New_York/UTC/Victoria,_British_Columbia), for one hour.
+**Dates**: 6–10 June, 2022, at [11:00 Victoria / 14:00 New York / 18:00 UTC](https://time.is/compare/1400_06_June_2022_in_New_York/UTC/Victoria,_British_Columbia), for one hour.
 
-**Classroom**: <https://meet.jit.si/dhsi2021-word-embeddings>
+**Classroom**: <https://meet.jit.si/dhsi2022-word-embeddings>
 
-**Chatroom**: [DHSI2021 Word Embeddings, on Matrix](https://matrix.to/#/!NfrKxmoXbgbyylMTzE:matrix.org?via=matrix.org). We'll use this room for all of our communication. A good program for Matrix chat is [Element](https://element.io/), available for Web, Android, iOS, MacOS, Windows, and Linux.
+**Chatroom**: [DHSI2022 Word Embeddings, on Matrix](https://matrix.to/#/%23dhsi2022-word-embeddings:matrix.org). We'll use this room for all of our communication. A good program for Matrix chat is [Element](https://element.io/), available for Web, Android, iOS, MacOS, Windows, and Linux.
 
 
 ## Course Description
@@ -49,51 +49,51 @@ One important note about Colab is that the virtual machine's state (its memory o
 ## Before the course 
 
  - Please [fill out this short initial survey](https://docs.google.com/forms/d/e/1FAIpQLSd52frST_WDm5rdXJ6zobMDIL0IjyBqt8QXmGMU90hK1tRxPw/viewform?usp=sf_link), whether you are a participant, auditor, or anyone else.
- - Please [introduce yourself to everyone in our course chatroom](https://matrix.to/#/!NfrKxmoXbgbyylMTzE:matrix.org?via=matrix.org). You may have to create a Matrix account.
- - [Create a Hypothes.is account](https://hypothes.is/signup), if you don't already have one, and [write an annotation on our first reading](https://via.hypothes.is/https://dhsi2021.jonreeve.com/static/readings/jurafsky.pdf). I recommend using your real name as your username, so that it's easier to know who's who.
+ - Please [introduce yourself to everyone in our course chatroom](https://matrix.to/#/%23dhsi2022-word-embeddings:matrix.org). You may have to create a Matrix account.
+ - [Create a Hypothes.is account](https://hypothes.is/signup), if you don't already have one, and [write an annotation on our first reading](https://via.hypothes.is/https://dhsi2022.jonreeve.com/static/readings/jurafsky.pdf). I recommend using your real name as your username, so that it's easier to know who's who.
 
-## Monday, 14 June: Theory of Word Embeddings 
+## Monday, 6 June: Theory of Word Embeddings 
 
  - [Lecture video 1](https://tubedu.org/videos/watch/312b6e65-0cfa-4a66-aed8-ff2176b4138c)
  - [Colab notebook as a GitHub Gist](https://colab.research.google.com/gist/JonathanReeve/efd664f9b8af89f8a5f64c99e699a753/01-dhsi-word-embeddings.ipynb)
- - Class videoconference:  [11:00 Pacific / 14:00 New York / 18:00 UTC](https://time.is/compare/1400_14_June_2021_in_New_York/UTC/Victoria,_British_Columbia), in [our videoconference room on Jitsi](https://meet.jit.si/dhsi2021-word-embeddings).
- - Reading: [Chapter 6 of Jurafski, Dan, and James H. Martin. *Speech and Language Processing*. Third edition draft.](https://via.hypothes.is/https://dhsi2021.jonreeve.com/static/readings/jurafsky.pdf)
+ - Class videoconference:  [11:00 Pacific / 14:00 New York / 18:00 UTC](https://time.is/compare/1400_14_June_2022_in_New_York/UTC/Victoria,_British_Columbia), in [our videoconference room on Jitsi](https://meet.jit.si/dhsi2022-word-embeddings).
+ - Reading: [Chapter 6 of Jurafski, Dan, and James H. Martin. *Speech and Language Processing*. Third edition draft.](https://via.hypothes.is/https://dhsi2022.jonreeve.com/static/readings/jurafsky.pdf)
    - Please write at least one annotation using the Hypothes.is annotation layer.
    - [Original here](https://web.stanford.edu/~jurafsky/slp3/6.pdf)
 
-## Tuesday, 15 June: Introduction to Python for Text Analysis
+## Tuesday, 7 June: Introduction to Python for Text Analysis
 
  - [Lecture video 2](https://tubedu.org/videos/watch/5746e37d-7581-4386-831b-e406cb6bb946)
  - [Lecture notebook 2](https://gist.github.com/JonathanReeve/250faf906992ee9973f5f4e907bbd8a1)
  - [Class notebook 2](https://gist.github.com/JonathanReeve/002a911709acbb69c2105d05c697b87a)
- - Class videoconference: [11:00 Pacific / 14:00 New York / 18:00 UTC](https://time.is/compare/1400_14_June_2021_in_New_York/UTC/Victoria,_British_Columbia), in [our videoconference room on Jitsi](https://meet.jit.si/dhsi2021-word-embeddings).
- - [Mikolov, Tomas and Chen, Kai and Corrado, Greg and Dean, Jeffrey. "Efficient estimation of word representations in vector space." arXiv preprint arXiv:1301.3781.](https://via.hypothes.is/https://dhsi2021.jonreeve.com/static/readings/mikolov.pdf)
+ - Class videoconference: [11:00 Pacific / 14:00 New York / 18:00 UTC](https://time.is/compare/1400_14_June_2022_in_New_York/UTC/Victoria,_British_Columbia), in [our videoconference room on Jitsi](https://meet.jit.si/dhsi2022-word-embeddings).
+ - [Mikolov, Tomas and Chen, Kai and Corrado, Greg and Dean, Jeffrey. "Efficient estimation of word representations in vector space." arXiv preprint arXiv:1301.3781.](https://via.hypothes.is/https://dhsi2022.jonreeve.com/static/readings/mikolov.pdf)
    - Please write at least one annotation using the Hypothes.is annotation layer.
 
-## Wednesday, 16 June: Hands-on With Pre-Trained Word Embeddings
+## Wednesday, 8 June: Hands-on With Pre-Trained Word Embeddings
 
  - [Lecture video 3](https://tubedu.org/videos/watch/ac781240-2c94-477b-a413-0c15b0bba193)
  - [Lecture notebook 3](https://gist.github.com/JonathanReeve/d80571afa44ea45c83e67220d8544af4)
  - [Class notebook 3](https://gist.github.com/JonathanReeve/8945ff89051bb08b683559fd540b8cfa)
- - Class videoconference: [11:00 Pacific / 14:00 New York / 18:00 UTC](https://time.is/compare/1400_14_June_2021_in_New_York/UTC/Victoria,_British_Columbia), in [our videoconference room on Jitsi](https://meet.jit.si/dhsi2021-word-embeddings).
- - Reading: [Kozlowski, Austin C., Matt Taddy, and Evans, James A. (2019) "The Geometry of Culture: Analyzing the Meanings of Class through Word Embeddings." American Sociological Review 84:5.](https://via.hypothes.is/https://dhsi2021.jonreeve.com/static/readings/kozlowski.pdf)
+ - Class videoconference: [11:00 Pacific / 14:00 New York / 18:00 UTC](https://time.is/compare/1400_14_June_2022_in_New_York/UTC/Victoria,_British_Columbia), in [our videoconference room on Jitsi](https://meet.jit.si/dhsi2022-word-embeddings).
+ - Reading: [Kozlowski, Austin C., Matt Taddy, and Evans, James A. (2019) "The Geometry of Culture: Analyzing the Meanings of Class through Word Embeddings." American Sociological Review 84:5.](https://via.hypothes.is/https://dhsi2022.jonreeve.com/static/readings/kozlowski.pdf)
    - [Also available here, via Sage](https://journals.sagepub.com/doi/full/10.1177/0003122419877135)
    - Please write at least one annotation using the Hypothes.is annotation layer.
 
-## Thursday, 17 June: Practicum in Text Analysis
+## Thursday, 9 June: Practicum in Text Analysis
 
  - [Lecture video 4](https://tubedu.org/videos/watch/ac76ef73-4a3c-46a4-8620-ef806a7c2104)
  - [Lecture notebook 4](https://gist.github.com/JonathanReeve/912b9c294306abd5d1351afea1f7da5e)
- - Class videoconference: [11:00 Pacific / 14:00 New York / 18:00 UTC](https://time.is/compare/1400_14_June_2021_in_New_York/UTC/Victoria,_British_Columbia), in [our videoconference room on Jitsi](https://meet.jit.si/dhsi2021-word-embeddings).
- - Reading: [Garg, N., Schiebinger, L., Jurafsky, D., and Zou, J. (2018) "Word embeddings quantify 100 years of gender and ethnic stereotypes" PNAS 115:16](https://via.hypothes.is/https://dhsi2021.jonreeve.com/static/readings/garg.pdf)
+ - Class videoconference: [11:00 Pacific / 14:00 New York / 18:00 UTC](https://time.is/compare/1400_14_June_2022_in_New_York/UTC/Victoria,_British_Columbia), in [our videoconference room on Jitsi](https://meet.jit.si/dhsi2022-word-embeddings).
+ - Reading: [Garg, N., Schiebinger, L., Jurafsky, D., and Zou, J. (2018) "Word embeddings quantify 100 years of gender and ethnic stereotypes" PNAS 115:16](https://via.hypothes.is/https://dhsi2022.jonreeve.com/static/readings/garg.pdf)
    - [Originally here, at PNAS](https://www.pnas.org/content/115/16/E3635.short)
    - Please write at least one annotation using the Hypothes.is annotation layer.
 
-## Friday, 18 June: Lab Work
+## Friday, 10 June: Lab Work
 
  - [Lecture video 5](https://tubedu.org/videos/watch/b2aeded5-5a51-4d4e-be7a-c3e024e6db99)
  - [Lecture notebook 5](https://gist.github.com/JonathanReeve/7b9b3f9c23bb34f551ad48a84c4760ff)
- - Class videoconference: [11:00 Pacific / 14:00 New York / 18:00 UTC](https://time.is/compare/1400_14_June_2021_in_New_York/UTC/Victoria,_British_Columbia), in [our videoconference room on Jitsi](https://meet.jit.si/dhsi2021-word-embeddings).
- - Reading: [Bolukbasi, Tolga, Kai-Wei Chang, James Zou, Venkatesh Saligrama, and Adam Kalai. "Man is to computer programmer as woman is to homemaker? debiasing word embeddings." arXiv preprint arXiv:1607.06520 (2016).](https://via.hypothes.is/https://dhsi2021.jonreeve.com/static/readings/bolukbasi.pdf)
+ - Class videoconference: [11:00 Pacific / 14:00 New York / 18:00 UTC](https://time.is/compare/1400_14_June_2022_in_New_York/UTC/Victoria,_British_Columbia), in [our videoconference room on Jitsi](https://meet.jit.si/dhsi2022-word-embeddings).
+ - Reading: [Bolukbasi, Tolga, Kai-Wei Chang, James Zou, Venkatesh Saligrama, and Adam Kalai. "Man is to computer programmer as woman is to homemaker? debiasing word embeddings." arXiv preprint arXiv:1607.06520 (2016).](https://via.hypothes.is/https://dhsi2022.jonreeve.com/static/readings/bolukbasi.pdf)
    - [Original via ArXiv](https://arxiv.org/abs/1607.06520)
    - Please write at least one annotation using the Hypothes.is annotation layer.
