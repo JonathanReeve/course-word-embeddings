@@ -6,7 +6,7 @@ authors:
 
 # Syllabus
 
-A week-long workshop, taught at [Digital Humanities Summer Institute, Summer 2022](https://dhsi.org/dhsi-2022-online-edition), and [Summer 2022 (anticipated)](https://dhsi.org/course-offerings/).
+A week-long workshop, taught at [Digital Humanities Summer Institute, Summer 2022](https://dhsi.org/dhsi-2022-online-edition).
 
 **Instructor**: [Jonathan Reeve](https://jonreeve.com), Department of English and Comparative Literature, Columbia University. 
 
@@ -23,7 +23,7 @@ A week-long workshop, taught at [Digital Humanities Summer Institute, Summer 202
 
 ## Course Description
 
-Word embeddings provide new ways of understanding language, by encorporating contexts, meanings, and senses of words into their digital representations. They are a new technology, developed by researchers at Google, which now powers the most advanced computational language tasks, such as machine translation, automatic summarization, and information extraction. Since they represent more than just the surface forms of words, their applications for humanities scholarship are profound. This course will serve as a hands-on introduction to word embeddings, and will use the Python programming language, in conjunction with the SpaCy package for natural language processing. Participants are encouraged to bring their own collections of text to analyze, and will create meaningful explorations of them by the end of the course. No prior programming experience is necessary.
+Word embeddings provide new ways of understanding language, by incorporating contexts, meanings, and senses of words into their digital representations. They are a new technology, developed by researchers at Google, which now powers the most advanced computational language tasks, such as machine translation, automatic summarization, and information extraction. Since they represent more than just the surface forms of words, their applications for humanities scholarship are profound. This course will serve as a hands-on introduction to word embeddings, and will use the Python programming language, in conjunction with the SpaCy package for natural language processing. Participants are encouraged to bring their own collections of text to analyze, and will create meaningful explorations of them by the end of the course. No prior programming experience is necessary.
 
 ## Course Communications
 
@@ -48,24 +48,24 @@ One important note about Colab is that the virtual machine's state (its memory o
 
 ## Before the course 
 
- - Please [fill out this short initial survey](https://docs.google.com/forms/d/e/1FAIpQLSd52frST_WDm5rdXJ6zobMDIL0IjyBqt8QXmGMU90hK1tRxPw/viewform?usp=sf_link), whether you are a participant, auditor, or anyone else.
+ - Please [fill out this short initial survey](https://docs.google.com/forms/d/e/1FAIpQLScdm6Jlsv8iwzYquPCVpC4DlX9fRv98G3KPSvEvszYBuQhWkg/viewform?usp=sf_link), whether you are a participant, auditor, or anyone else.
  - Please [introduce yourself to everyone in our course chatroom](https://matrix.to/#/%23dhsi2022-word-embeddings:matrix.org). You may have to create a Matrix account.
  - [Create a Hypothes.is account](https://hypothes.is/signup), if you don't already have one, and [write an annotation on our first reading](https://via.hypothes.is/https://dhsi2022.jonreeve.com/static/readings/jurafsky.pdf). I recommend using your real name as your username, so that it's easier to know who's who.
 
 ## Monday, 6 June: Theory of Word Embeddings 
 
  - [Lecture video 1](https://tubedu.org/videos/watch/312b6e65-0cfa-4a66-aed8-ff2176b4138c)
+ - [NB: the lecture video is from 2021, bu applies to this year's course, as well. Please watch the lecture video before we meet over videoconference.]
  - [Colab notebook as a GitHub Gist](https://colab.research.google.com/gist/JonathanReeve/efd664f9b8af89f8a5f64c99e699a753/01-dhsi-word-embeddings.ipynb)
  - Class videoconference:  [11:00 Pacific / 14:00 New York / 18:00 UTC](https://time.is/compare/1400_14_June_2022_in_New_York/UTC/Victoria,_British_Columbia), in [our videoconference room on Jitsi](https://meet.jit.si/dhsi2022-word-embeddings).
  - Reading: [Chapter 6 of Jurafski, Dan, and James H. Martin. *Speech and Language Processing*. Third edition draft.](https://via.hypothes.is/https://dhsi2022.jonreeve.com/static/readings/jurafsky.pdf)
-   - Please write at least one annotation using the Hypothes.is annotation layer.
+   - Please write at least one annotation using the Hypothes.is annotation layer, before class.
    - [Original here](https://web.stanford.edu/~jurafsky/slp3/6.pdf)
 
 ## Tuesday, 7 June: Introduction to Python for Text Analysis
 
- - [Lecture video 2](https://tubedu.org/videos/watch/5746e37d-7581-4386-831b-e406cb6bb946)
+ - [Lecture video 2](https://tubedu.org/videos/watch/5746e37d-7581-4386-831b-e406cb6bb946). Please watch before class. 
  - [Lecture notebook 2](https://gist.github.com/JonathanReeve/250faf906992ee9973f5f4e907bbd8a1)
- - [Class notebook 2](https://gist.github.com/JonathanReeve/002a911709acbb69c2105d05c697b87a)
  - Class videoconference: [11:00 Pacific / 14:00 New York / 18:00 UTC](https://time.is/compare/1400_14_June_2022_in_New_York/UTC/Victoria,_British_Columbia), in [our videoconference room on Jitsi](https://meet.jit.si/dhsi2022-word-embeddings).
  - [Mikolov, Tomas and Chen, Kai and Corrado, Greg and Dean, Jeffrey. "Efficient estimation of word representations in vector space." arXiv preprint arXiv:1301.3781.](https://via.hypothes.is/https://dhsi2022.jonreeve.com/static/readings/mikolov.pdf)
    - Please write at least one annotation using the Hypothes.is annotation layer.
@@ -74,7 +74,6 @@ One important note about Colab is that the virtual machine's state (its memory o
 
  - [Lecture video 3](https://tubedu.org/videos/watch/ac781240-2c94-477b-a413-0c15b0bba193)
  - [Lecture notebook 3](https://gist.github.com/JonathanReeve/d80571afa44ea45c83e67220d8544af4)
- - [Class notebook 3](https://gist.github.com/JonathanReeve/8945ff89051bb08b683559fd540b8cfa)
  - Class videoconference: [11:00 Pacific / 14:00 New York / 18:00 UTC](https://time.is/compare/1400_14_June_2022_in_New_York/UTC/Victoria,_British_Columbia), in [our videoconference room on Jitsi](https://meet.jit.si/dhsi2022-word-embeddings).
  - Reading: [Kozlowski, Austin C., Matt Taddy, and Evans, James A. (2019) "The Geometry of Culture: Analyzing the Meanings of Class through Word Embeddings." American Sociological Review 84:5.](https://via.hypothes.is/https://dhsi2022.jonreeve.com/static/readings/kozlowski.pdf)
    - [Also available here, via Sage](https://journals.sagepub.com/doi/full/10.1177/0003122419877135)
